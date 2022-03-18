@@ -48,6 +48,7 @@ blockquote {
   font-style: italic;
   margin: .8rem 0;
   padding: .5rem 1rem;
+  font-size: 20px;
 
   p:last-child {
     margin-bottom: 0;
@@ -64,24 +65,22 @@ img {
   max-width: 100%;
 }
 
-table { border: 1px solid $grey-2; }
-
-thead {
+table, th, td {
+  border: 1px solid $grey-2; 
+  border-collapse: collapse;
+  border-spacing: 5px;
   text-align: left;
-  font-weight: bold;
-}
-
-thead tr { border-bottom: 1px solid $default-color }
-
-td {
   vertical-align: middle;
-  text-align: left;
-  padding: 5px;
-  margin: 0;
 }
 
-tr {
-  border-bottom: 1px solid $grey-2;
-  margin-bottom: 5px;
-  padding-botom: 5px;
+thead th { font-weight: bold }
+
+td { padding: 5px 10px }
+
+body > table > tbody > tr:nth-of-type(odd) {
+    background-color: $grey-3;
+}
+
+body > table > tbody > tr:nth-of-type(even) {
+    background-color: $grey-2;
 }
