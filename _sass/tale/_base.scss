@@ -61,6 +61,18 @@ img {
   max-width: 100%;
 }
 
+thead {
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid $grey-1;
+  font-size: 20px;
+}
+
 td {
   vertical-align: top;
+  text-align: center;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
