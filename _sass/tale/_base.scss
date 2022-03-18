@@ -73,14 +73,14 @@ table, th, td {
   vertical-align: middle;
 }
 
+th, td { padding: 5px 10px }
+
 thead th { font-weight: bold }
 
-td { padding: 5px 10px }
-
-body > table > tbody > tr:nth-of-type(odd) {
+body > main > table > tbody > tr:nth-of-type(odd) {
     background-color: $grey-3;
 }
 
-body > table > tbody > tr:nth-of-type(even) {
+body > main > table > tbody > tr:nth-of-type(even) {
     background-color: $grey-2;
 }
