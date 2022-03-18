@@ -64,6 +64,8 @@ img {
   max-width: 100%;
 }
 
+table { border: 1px solid $grey-2; }
+
 thead {
   text-align: left;
   font-weight: bold;
@@ -74,5 +76,5 @@ td {
   vertical-align: middle;
   text-align: left;
   padding: 5px;
-  border: 1px solid $grey-1;
+  margin: 0;
 }
