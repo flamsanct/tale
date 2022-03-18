@@ -44,7 +44,7 @@ a {
 
 blockquote {
   border-left: .25rem solid $grey-2;
-  color: $grey-1;
+  color: $default-color;
   font-style: italic;
   margin: .8rem 0;
   padding: .5rem 1rem;
@@ -65,17 +65,14 @@ img {
 }
 
 thead {
-  text-align: center;
+  text-align: left;
   font-weight: bold;
-  border-bottom: 1px solid $grey-1;
   font-size: 20px;
 }
 
 td {
-  vertical-align: top;
-  text-align: center;
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  vertical-align: middle;
+  text-align: left;
+  padding: 5px;
+  border: 1px solid $grey-1;
 }
