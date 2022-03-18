@@ -69,12 +69,19 @@ table { border: 1px solid $grey-2; }
 thead {
   text-align: left;
   font-weight: bold;
-  font-size: 20px;
 }
+
+thead tr { border-bottom: 1px solid $default-color }
 
 td {
   vertical-align: middle;
   text-align: left;
   padding: 5px;
   margin: 0;
+}
+
+tr {
+  border-bottom: 1px solid $grey-2;
+  margin-bottom: 5px;
+  padding-botom: 5px;
 }
