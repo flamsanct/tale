@@ -80,7 +80,3 @@ thead th { font-weight: bold }
 body > main > table > tbody > tr:nth-of-type(odd) {
     background-color: $grey-3;
 }
-
-body > main > table > tbody > tr:nth-of-type(even) {
-    background-color: $grey-2;
-}
