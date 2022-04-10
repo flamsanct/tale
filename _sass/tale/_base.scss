@@ -71,7 +71,7 @@ img {
 }
 
 table, th, td {
-  border: 1px solid $grey-2; 
+  border: 1px solid $grey-1; 
   border-collapse: collapse;
   border-spacing: 5px;
   text-align: left;
@@ -83,5 +83,5 @@ th, td { padding: 5px 10px }
 thead th { font-weight: bold }
 
 body > main > table > tbody > tr:nth-of-type(odd) {
-    background-color: $grey-3;
+    background-color: $grey-1;
 }
