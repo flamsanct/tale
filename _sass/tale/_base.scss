@@ -87,3 +87,5 @@ thead th { font-weight: bold }
 body > main > table > tbody > tr:nth-of-type(odd) {
     background-color: $grey-1;
 }
+
+li, ol { margin-bottom: 7px }

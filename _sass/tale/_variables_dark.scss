@@ -4,12 +4,12 @@ $default-color: #fff !default;
 $default-shade: #eee !default;
 $default-tint: #aaa !default;
 $grey-1: #333 !default;
-$grey-2: #666 !default;
-$grey-3: #999 !default;
+$grey-2: #444 !default;
+$grey-3: #666 !default;
 $white: #fff !default;
 $blue: #4a9ae1 !default;
 $shadow-color: rgba(0, 0, 0, .2) !default;
-$code-color: #bf616a !default;
+$code-color: $white !default;
 
 // Fonts
 $serif-primary: 'Libre Baskerville', 'Times New Roman', Times, serif !default;
